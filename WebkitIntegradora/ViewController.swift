@@ -6,12 +6,20 @@
 //
 
 import UIKit
+import WebKit
+
 
 class ViewController: UIViewController {
 
+    
+    
+    @IBOutlet weak var webKit: WKWebView!
+    var pagina:String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+      
+        webKit.load(URLRequest(url:URL(string: "https://securebot.tech/login")!))
     }
 
 
