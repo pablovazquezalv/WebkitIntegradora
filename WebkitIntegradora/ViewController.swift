@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
-        webKit.load(URLRequest(url:URL(string: "https://securebot.tech/login")!))
+        webKit.load(URLRequest(url:URL(string: "https://securebot.tech/inicio")!))
     }
 
 
